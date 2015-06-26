@@ -1,0 +1,293 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-action a {
+    position: absolute;
+    color: rgb(125, 255, 181);
+    bottom: 110px;
+    right: 100px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-size: 16px;
+    min-width: 320px;
+    background-color: #F0F0E8;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    background-color: #55C1C4;
+}
+
+.logo h1 {
+        color: white;
+        text-shadow: 1px 1px 1px #6c6c6c;
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+    }
+/* Phones */
+
+@media only screen and (max-device-width: 767px) {
+    .logo {
+        width: 80%;
+        height: 65%;
+        margin: 0 auto;
+    }
+    .logo h1 {
+        font-size: 1.5em;
+        text-align: center;       
+    }
+    .logo img {
+        width: 80%;
+        margin-left: 25%;
+    
+}
+    .logo h1 {
+        font-size: 3em;
+        text-align: center;
+        color: rgb(195, 92, 92);
+        text-shadow: 1px 1px 1px #6c6c6c;
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+    }
+    .desktop {
+        display: none!important;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    .navigation {
+        display: block;
+        border: 1px solid #9a9a9a;
+        background-color: #f7f7f7;
+        text-align: center;
+        width: 100%;
+        /* box-sizing: border-box; */
+    }
+    .navigation li {
+        height: 2.2em;
+        line-height: 2.2em;
+        background-color: #E9D9A8;
+        border: 1px dashed white;
+        padding: 1%;
+    }
+    .navigation li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Indie Flower', cursive;
+    }
+    .menu-tag:after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 0.9em;
+        width: 1em;
+        height: 0.15em;
+        background: rgb(253, 253, 253);
+        box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
+    }
+    .menu-tag {
+        color: #f7f7f7;
+        position: relative;
+        background-color: #f49b4e;
+        height: 2.5em;
+        border: 1px dashed white;
+        width: 100%;
+        display: block;
+        font-size: 1.2em;
+        line-height: 2.5em;
+        font-weight: bold;
+    }
+    [type="checkbox"] ~ .links {
+        display: none;
+    }
+    .links {
+        display: block;
+    }
+    .content {
+        min-height: 400px;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    .btn {
+        color: #f4f4f4;
+        background: #4aaaa5;
+        font-weight: bold;
+        padding: 8px 25px 8px 25px;
+        margin-left: 5px;
+        margin-top: 50px;
+        font-family: Arial, sans-serif;
+        border-radius: 4px;
+        border: solid 0 #e3edf4;
+        border-bottom: 2px solid #3a9a95;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        margin-top: 26px;
+        display: block;
+        text-decoration: none;
+    }
+    .slipslap {
+        /* background: #ffb76b; */
+        /* Old browsers */
+        
+        background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 30%, #ff7c00 63%, #f24404 100%);
+        /* FF3.6+ */
+        /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(30%,#ffa73d), color-stop(63%,#ff7c00), color-stop(100%,#f24404)); */
+        /* Chrome,Safari4+ */
+        /* background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 30%,#ff7c00 63%,#f24404 100%); */
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(top, #ffb76b 0%, #ffa73d 30%, #ff7c00 63%, #f24404 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(top, #ffb76b 0%, #ffa73d 30%, #ff7c00 63%, #f24404 100%);
+        /* IE10+ */
+        /* background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 30%,#ff7c00 63%,#f24404 100%); */
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#f24404', GradientType=0);
+        /* IE6-9 */
+    }
+    .sliplap li:first-child {
+        background-color: white!important;
+    }
+    .imgclass {
+        width: 200px;
+        height: 200px;
+        border-radius: 50% 50%;
+        border: 2px solid white;
+    }
+    .call-action {
+        width: 80%;
+        padding: 15px;
+        box-sizing: border-box;
+        margin: 5px auto;
+        border-radius: 15px;
+        border: 2px dashed rgb(255, 186, 79);
+    }
+    .call-action:hover {
+        background-color: rgba(13, 116, 116, 0.62);
+    }
+}
+/* Large screens */
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 590px;
+    
+        position: relative;
+}
+    .logo img {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 20px;
+    
+        display: inline-block;
+}
+    .logo h1 {
+        font-size: 4.5em;
+        display: inline-block;
+        color: rgb(208, 147, 15);
+        text-shadow: 1px 1px 1px #6c6c6c;
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+    
+        position: absolute;
+        bottom: 50px;
+        left: 200px;
+}
+    #menu {
+        display: none;
+    }
+    .navigation .links li {
+        display: inline-block;
+        margin-left: 20px;
+    
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1.5em;
+        padding-left: 20px;
+}
+    ul.links {
+        background-color: #4C46A0;
+        width: 100%;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+    }
+    ul.links li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .imgclass{
+        width: 100%;
+    }
+    
+    .i-want{
+        vertical-align: top;
+    
+        background-color: #E9D9A8;
+        border-radius: 20px;
+        margin-left: 40px;
+        padding: 40px;
+        margin-right: 40px;
+}
+    .heading{
+        font-family: 'Shadows Into Light', cursive;
+    
+        font-size: 4.5em;
+        width: 40%;
+        color: white;
+        text-shadow: 3px 1px 1px #000;
+        display: inline-block;
+}
+    .wishlist{
+    width: 50%;
+    display: inline-block;
+        
+     
+    list-style: none;
+}
+    
+    .call-action{
+        position: relative;
+    }
+    .call-action p {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    text-shadow: 3px 4px 0px black;
+    font-size: 4em;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 30px!important;
+    left: 50px;
+}
+
+ul.wishlist li:before {
+    content: "-";
+}
+.menu-tag{
+
+    display: none;
+}
+ul.wishlist li {
+    font-size: 3.75em;
+    color: rgb(171, 24, 147);
+    text-shadow: 1px 1px 1px rgb(137, 102, 102);
+}
+    
+    
+}
